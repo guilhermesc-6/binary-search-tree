@@ -129,7 +129,7 @@ describe("Creating a Binary Search Tree", () => {
 
     it("should rebalance the tree", () => {
       let newTree = tree.rebalance();
-      expect(newTree.value).toBe(9);
+      expect(newTree.root.value).toBe(9);
     });
   });
 });
